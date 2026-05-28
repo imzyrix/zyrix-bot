@@ -95,17 +95,61 @@ For detailed information on all commands, features, and configuration options, p
 
 ```
 zyrix-bot/
-├── docs/                       # Documentation
-│   ├── commands.md            # Command reference
-│   ├── security.md            # Security guide
-│   ├── features.md            # AI & Games guide
-│   └── contributing.md        # Contribution guidelines
-├── assets/                     # Resources
-│   └── zyrix-bot-logo.png     # Bot logo
-├── README.md                  # This file
-├── LICENSE.md                 # License information
-└── CHANGELOG.md               # Version history
+├── 📄 Configuration Files
+│   ├── .env.example                # Environment variables template
+│   ├── .gitignore                  # Git ignore rules
+│   ├── LICENSE                     # License file
+│   ├── LICENSE.md                  # License documentation
+│   ├── README.md                   # This file
+│   ├── CHANGELOG.md                # Version history and updates
+│   ├── SECURITY.md                 # Security policy
+│   └── COPYRIGHT.md                # Copyright information
+│
+├── 📂 api/                         # API endpoints and integrations
+│   └── External API handlers and utilities
+│
+├── 📂 assets/                      # Media and resources
+│   ├── Images and logos
+│   └── Branding materials
+│
+├── 📂 builds/                      # Build outputs and distributions
+│   └── Compiled versions and releases
+│
+├── 📂 database/                    # Database configuration and schemas
+│   ├── Database models
+│   ├── Migration files
+│   └── Database utilities
+│
+├── 📂 docs/                        # Documentation files
+│   ├── commands.md                 # Full commands reference
+│   ├── security.md                 # Security documentation
+│   ├── features.md                 # Features guide
+│   └── contributing.md             # Contributing guidelines
+│
+├── 📂 licenses/                    # Third-party licenses
+│   └── Dependencies and package licenses
+│
+├── 📂 private/                     # Private/sensitive configurations
+│   └── Internal development files
+│
+└── 📂 staff/                       # Staff documentation and tools
+    ├── Staff guidelines
+    ├── Internal procedures
+    └── Development notes
 ```
+
+### Key Directories Explained
+
+| Directory | Purpose |
+|-----------|---------|
+| **api/** | Handles external API integrations (Spotify, Groq AI, etc.) |
+| **assets/** | Logo, images, and branding materials |
+| **builds/** | Compiled builds and distribution files |
+| **database/** | Database schemas, models, and migrations |
+| **docs/** | Complete documentation and guides |
+| **licenses/** | Third-party and open-source licenses |
+| **private/** | Private configurations and development files |
+| **staff/** | Staff-only documentation and tools |
 
 ---
 
