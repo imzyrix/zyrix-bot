@@ -1,25 +1,14 @@
 <p align="center">
   <a href="https://github.com/imzyrix/zyrix-bot">
-    <img src="assets/logos/zyrix-logo.png" alt="Zyrix Bot Logo" width="150">
+    <img src="https://raw.githubusercontent.com/imzyrix/zyrix-bot/main/assets/zyrix-bot-logo.png" alt="Zyrix Bot Logo" width="150">
   </a>
-  <h3 align="center">Zyrix Bot</h3>
-
-  <p align="center">
-    🌟 Professional Proprietary Discord Bot
-    <br />
-    <strong>An all-in-one, multipurpose Discord bot designed to enhance your server with powerful tools and features.</strong>
-    <br />
-    <br />
-    <a href="https://github.com/imzyrix/zyrix-bot/blob/main/docs/commands.md"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="YOUR_INVITE_LINK_HERE">Add to Discord</a>
-    ·
-    <a href="YOUR_SUPPORT_SERVER_LINK_HERE">Report Bug</a>
-    ·
-    <a href="YOUR_SUPPORT_SERVER_LINK_HERE">Request Feature</a>
-  </p>
 </p>
+
+<div align="center">
+
+### **ZyriX Bot**
+A powerful, feature-rich Discord bot built with Python & discord.py.  
+**350+ commands** across Security, Moderation, Music, AI, Games, and more.
 
 <p align="center">
   <a href="https://github.com/imzyrix/zyrix-bot/stargazers">
@@ -28,35 +17,49 @@
   <a href="https://github.com/imzyrix/zyrix-bot/blob/main/LICENSE.md">
     <img src="https://img.shields.io/github/license/imzyrix/zyrix-bot?style=for-the-badge&logo=github&labelColor=black&color=blue" alt="License">
   </a>
-  <img src="https://img.shields.io/badge/version-1.0.0-blue?style=for-the-badge" alt="Version">
-  <img src="https://img.shields.io/badge/status-Active-brightgreen?style=for-the-badge" alt="Status">
+  <img src="https://img.shields.io/badge/Status-Under%20Work-orange?style=for-the-badge" alt="Status: Under Work">
 </p>
+
+<a href="YOUR_INVITE_LINK_HERE">Add to Discord</a>
+·
+<a href="https://github.com/imzyrix/zyrix-bot/blob/main/docs/commands.md">Explore the docs</a>
+·
+<a href="YOUR_SUPPORT_SERVER_LINK_HERE">Support Server</a>
+
+</div>
+
+---
+
+## ⚠️ Status: Under Work
+**ZyriX Bot is currently under active development.** While most features are fully functional, some modules (such as Music) are undergoing maintenance. We are constantly updating and refining the bot to provide the best experience.
 
 ---
 
 ## 📋 About The Project
 
-**Zyrix Bot** is a comprehensive, proprietary Discord bot built to provide server administrators and members with a full suite of tools for moderation, utility, entertainment, and customization. This repository serves as the official **knowledge base, documentation center, and resource hub** for Zyrix Bot.
-
-**Repository Purpose:** Information, documentation, licensing management, and community knowledge base. *Source code is not included.*
+**ZyriX Bot** is a comprehensive, feature-rich Discord bot designed to enhance your server with an extensive collection of commands and tools. Built with Python and discord.py, it provides everything from advanced security features to entertaining games, all accessible through a user-friendly interface.
 
 ### Built With
 
-* [Discord.js](https://discord.js.org/#/)
-* [Node.js](https://nodejs.org/)
+* [discord.py](https://discordpy.readthedocs.io/)
+* [Python](https://www.python.org/)
+* [Groq AI](https://groq.com/)
+* [Wavelink/Lavalink](https://wavelink.dev/)
 
 ---
 
-## 🎯 Key Features
+## 🎯 Core Features
 
-Zyrix Bot offers a complete set of features to enhance your Discord experience:
+ZyriX Bot offers a massive suite of features designed for server management and user engagement:
 
-* **🛡️ Moderation Tools** - Maintain a safe, organized community with powerful moderation commands and automated enforcement
-* **🔧 Utility Commands** - Information retrieval, time management, server statistics, and everyday task automation
-* **🎮 Fun & Games** - Interactive games and entertainment commands to keep your community engaged and active
-* **⚙️ Full Customization** - Tailor the bot's behavior, responses, and features to match your server's unique needs
-* **📊 Analytics & Logging** - Track activity, monitor user behavior, and maintain detailed server records
-* **🔐 Security Features** - Advanced permission handling and security protocols
+* **🛡️ Advanced Security** - 15-point Antinuke system, whitelist/unwhitelist, and extra owner system
+* **🤖 Automoderation** - Comprehensive filters for spam, links, caps, and mass mentions with automated punishment systems
+* **🧠 AI Chatbot** - Integrated Groq AI with internet access, smart mention responses, and context history
+* **🎮 12 Standalone Games** - Including Blackjack, Wordle, Chess, 2048, and more
+* **🔨 Moderation & Logging** - Full suite of mod tools and advanced logging across 30+ event types
+* **🎟️ Utility & Roles** - Ticket panels, reaction roles, leveling, and custom welcome systems
+* **🎵 Music** - Full music system with queue, filters, and Spotify support (Wavelink/Lavalink)
+* **350+ Commands** - Comprehensive command library covering all aspects of server management
 
 ---
 
@@ -64,27 +67,27 @@ Zyrix Bot offers a complete set of features to enhance your Discord experience:
 
 ### Quick Start
 
-1. **Invite to Your Server**: [Click here to add Zyrix Bot to your Discord server](YOUR_INVITE_LINK_HERE)
-2. **Verify Permissions**: Ensure the bot has appropriate permissions in your server
-3. **Configure Settings**: Customize the bot using the configuration guide
-4. **Start Using**: Run commands to enhance your server
+1. **Invite to Your Server**: [Click here to add ZyriX Bot](YOUR_INVITE_LINK_HERE)
+2. **Set Default Prefix**: Default Prefix is `>` (Also supports no-prefix mode and slash commands)
+3. **Configure Settings**: Explore commands and customize the bot to your needs
+4. **Start Using**: Begin with `>help` or use slash commands
 
 ### Requirements
 
-- Discord Server (any size)
-- Administrator or Server Manager permissions to configure the bot
-- Basic understanding of Discord commands
+- Discord Server
+- Appropriate bot permissions for your desired features
+- Python knowledge (if self-hosting)
 
 ---
 
 ## 📚 Documentation
 
-Complete guides and references are available in our documentation:
+For detailed information on all commands, features, and configuration options, please refer to our official documentation:
 
-* **[Commands Reference](docs/commands.md)** - Full list of all available commands and usage
-* **[Configuration Guide](docs/config.md)** - Setup and customization options
-* **[Contributing Guidelines](docs/contributing.md)** - How to contribute to the project
-* **[Changelog](CHANGELOG.md)** - Version history and recent updates
+* **[Full Commands Reference](docs/commands.md)** - Complete list of 350+ commands
+* **[Security & Automod Guide](docs/security.md)** - Advanced security features
+* **[AI & Games Guide](docs/features.md)** - AI integration and games information
+* **[Contributing Guidelines](docs/contributing.md)** - How to contribute
 
 ---
 
@@ -94,57 +97,40 @@ Complete guides and references are available in our documentation:
 zyrix-bot/
 ├── docs/                       # Documentation
 │   ├── commands.md            # Command reference
-│   ├── config.md              # Configuration guide
-│   ├── contributing.md        # Contribution guidelines
-│   └── CHANGELOG.md           # Version history
+│   ├── security.md            # Security guide
+│   ├── features.md            # AI & Games guide
+│   └── contributing.md        # Contribution guidelines
 ├── assets/                     # Resources
-│   └── logos/                 # Logo files
+│   └── zyrix-bot-logo.png     # Bot logo
 ├── README.md                  # This file
 ├── LICENSE.md                 # License information
-├── SECURITY.md                # Security policy
-└── CHANGELOG.md               # Changelog
+└── CHANGELOG.md               # Version history
 ```
 
 ---
 
-## 💬 Support & Community
+## 💬 Support
 
-Have questions or need help? Join our community:
-
-* **[Support Server](YOUR_SUPPORT_SERVER_LINK_HERE)** - Get help, report issues, and request features
-* **GitHub Issues** - Report bugs or technical issues
-* **Documentation** - Check our comprehensive guides and FAQs
+If you encounter any issues, have questions, or want to suggest new features, please join our [Support Server](YOUR_SUPPORT_SERVER_LINK_HERE).
 
 ---
 
-## 📝 Version History
+## 📝 License
 
-Current Version: **1.0.0**
-
-See [CHANGELOG.md](CHANGELOG.md) for detailed information on updates, new features, and improvements.
+Distributed under the MIT License. See `LICENSE.md` for more information.
 
 ---
 
-## 🔒 Security
-
-Security is important to us. For information on reporting security vulnerabilities and our security policy, please refer to [SECURITY.md](SECURITY.md).
-
----
-
-## 📄 License
-
-This project is distributed under a **Proprietary License**. See [LICENSE.md](LICENSE.md) for more information.
-
----
-
-## 📞 Contact & Links
+## 📞 Contact
 
 * **Project Repository**: [https://github.com/imzyrix/zyrix-bot](https://github.com/imzyrix/zyrix-bot)
 * **Owner**: [Zyrix](https://github.com/imzyrix)
-* **Support**: [Support Server](YOUR_SUPPORT_SERVER_LINK_HERE)
+* **Support Server**: [Join Now](YOUR_SUPPORT_SERVER_LINK_HERE)
 
 ---
 
-<p align="center">
-  <strong>Made with ❤️ by Zyrix</strong>
-</p>
+<div align="center">
+
+**Powered by ZyriX Development™**
+
+</div>
